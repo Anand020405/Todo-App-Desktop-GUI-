@@ -2,6 +2,7 @@ from function import get_todos, send_todos
 import time
 
 now = time.strftime("%b %d, %Y %H:%M:%S")
+print("The time is below:")
 print("It is",now)
 run = True
 while run:
