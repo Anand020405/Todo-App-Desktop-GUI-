@@ -18,7 +18,7 @@ def send_todos(todos, filepath = FILEPATH):
 
 if __name__ == "__main__":
     """
-    This code is only executed if the current file is run and when 9it is imported
+    This code is only executed if the current file is run and not when it is imported
     """
     print("Hello")
     print(get_todos())
